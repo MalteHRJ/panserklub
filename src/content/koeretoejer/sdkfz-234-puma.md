@@ -1,6 +1,6 @@
 ---
 title: "Sd.Kfz. 234 Puma"
-image: "../../../public/images/koeretoejer/image6.jpg"
+image: "/images/koeretoejer/image6.jpg"
 ---
 # Sd.Kfz. 234 Puma
 

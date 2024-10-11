@@ -1,6 +1,6 @@
 ---
 title: "Stuart M5A1"
-image: "../../../public/images/koeretoejer/image4.jpg"
+image: "/images/koeretoejer/image4.jpg"
 ---
 
 # Stuart M5A1

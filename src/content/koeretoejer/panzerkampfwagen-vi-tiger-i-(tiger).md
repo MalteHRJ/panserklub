@@ -1,6 +1,6 @@
 ---
 title: "Panzerkampfwagen VI Tiger I (Tiger)"
-image: "../../../public/images/koeretoejer/image7.jpg"
+image: "/images/koeretoejer/image7.jpg"
 ---
 # Panzerkampfwagen VI Tiger I (Tiger)
 

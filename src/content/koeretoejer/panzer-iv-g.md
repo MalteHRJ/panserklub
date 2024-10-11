@@ -1,6 +1,6 @@
 ---
 title: "Panzer IV G (Sd.Kfz. 161/2)"
-image: "../../../public/images/koeretoejer/image5.png"
+image: "/images/koeretoejer/image5.png"
 ---
 # Panzer IV G
 

@@ -1,6 +1,6 @@
 ---
 title: "Leopard 2A5DK"
-image: "../../../public/images/koeretoejer/image10.jpg"
+image: "/images/koeretoejer/image10.jpg"
 ---
 # Leopard 2A5DK
 

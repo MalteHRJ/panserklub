@@ -1,6 +1,6 @@
 ---
 title: "Sherman M4A3 76(w)"
-image: "../../../public/images/koeretoejer/image3.jpg"
+image: "/images/koeretoejer/image3.jpg"
 ---
 # Sherman M4A3 76(w)
 

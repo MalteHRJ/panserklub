@@ -1,6 +1,6 @@
 ---
 title: "Panzerkampfwagen VI Tiger II (Königstiger)"
-image: "../../../public/images/koeretoejer/image8.jpg"
+image: "/images/koeretoejer/image8.jpg"
 ---
 
 # Panzerkampfwagen VI Tiger II (Königstiger)

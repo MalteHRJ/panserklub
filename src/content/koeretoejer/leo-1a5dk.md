@@ -1,6 +1,6 @@
 ---
 title: "LEO 1A5DK"
-image: "../../../public/images/koeretoejer/image9.jpg"
+image: "/images/koeretoejer/image9.jpg"
 ---
 # LEO 1A5DK
 

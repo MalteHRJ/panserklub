@@ -1,6 +1,6 @@
 ---
 title: "Centurion Mk 5"
-image: "../../../public/images/koeretoejer/image2.jpg"
+image: "/images/koeretoejer/image2.jpg"
 ---
 # Centurion Mk 5
 

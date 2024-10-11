@@ -1,6 +1,6 @@
 ---
 title: "Leopard 2A6"
-image: "../../../public/images/koeretoejer/image11.jpg"
+image: "/images/koeretoejer/image11.jpg"
 ---
 # Leopard 2A6
 

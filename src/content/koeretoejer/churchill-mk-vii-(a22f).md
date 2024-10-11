@@ -1,6 +1,6 @@
 ---
 title: "Churchill Mk VII (A22F)"
-image: "../../../public/images/koeretoejer/image1.jpg"
+image: "/images/koeretoejer/image1.jpg"
 
 ---
 # Churchill Mk VII (A22F)

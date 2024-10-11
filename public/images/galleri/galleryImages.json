@@ -1,31 +1,31 @@
 [
     {
-        "src": "images/galleri/galleri-1.jpg",
+        "src": "/images/galleri/galleri-1.jpg",
         "alt": "billede fra hobbymesse i rødovrehallen",
         "title": "Rødovrehallen 1"
     },
     {
-        "src": "images/galleri/galleri-2.jpg",
+        "src": "/images/galleri/galleri-2.jpg",
         "alt": "billede fra hobbymesse i rødovrehallen",
         "title": "Rødovrehallen 2"
     },
     {
-        "src": "images/galleri/galleri-3.jpg",
+        "src": "/images/galleri/galleri-3.jpg",
         "alt": "billede fra hobbymesse i rødovrehallen",
         "title": "Rødovrehallen 3"
     },
     {
-        "src": "images/galleri/galleri-4.jpg",
+        "src": "/images/galleri/galleri-4.jpg",
         "alt": "billede fra hobbymesse i rødovrehallen",
         "title": "Rødovrehallen 4"
     },
     {
-        "src": "images/galleri/galleri-5.jpg",
+        "src": "/images/galleri/galleri-5.jpg",
         "alt": "billede fra hobbymesse i rødovrehallen",
         "title": "Rødovrehallen 5"
     },
     {
-        "src": "images/galleri/galleri-6.jpg",
+        "src": "/images/galleri/galleri-6.jpg",
         "alt": "billede fra hobbymesse i rødovrehallen",
         "title": "Rødovrehallen 6"
     }
