@@ -1,0 +1,24 @@
+---
+import BurgerButton from "./BurgerButton.astro";
+---
+
+<nav
+  id="nav-menu"
+  class="z-10 grid place-items-center fixed inset-0 translate-x-full transition duration-200 bg-accent md:relative md:translate-x-0 md:bg-transparent md:w-full md:max-w-screen-lg"
+>
+  <ul class="grid gap-8 text-secondary md:flex  md:dark:text-primary md:w-full md:justify-around">
+    <li><a href="/om_klubben" class="!text-3xl md:!text-2xl">Om klubben</a></li>
+<!--     <li><a href="/kalender" class="!text-3xl md:!text-2xl">Kalender</a></li> -->
+    <li><a href="/galleri" class="!text-3xl md:!text-2xl">Galleri</a></li>
+<!--     <li><a href="/diverse" class="!text-3xl md:!text-2xl">Diverse</a></li> -->
+    <li><a href="/koeretoejer" class="!text-3xl md:!text-2xl">køretøjer</a></li>
+  </ul>
+</nav>
+<BurgerButton />
+
+<style>
+  #nav-menu.open {
+    transform: translateX(0);
+
+  }
+</style>

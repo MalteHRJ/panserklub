@@ -1,0 +1,22 @@
+---
+import Layout from "../layouts/Layout.astro";
+import GalleryImage from "../components/GalleryImage.astro";
+import images from "../../public/images/galleri/galleryImages.json";
+interface image {
+  src: string;
+  alt?: string;
+  title?: string;
+}
+
+const imagesArray = images as image[];
+---
+
+<Layout title="Galleri">
+  <section class="grid gap-4 p-4 md:flex md:flex-wrap w-full justify-center">
+    {
+      imagesArray.map((image) => (
+        <GalleryImage src={image.src} alt={image.alt} title={image.title} />
+      ))
+    }
+  </section>
+</Layout>

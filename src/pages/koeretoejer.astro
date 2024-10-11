@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/Layout.astro";
+import KoeretoejsCard from "../components/KoeretoejsCard.astro";
+import { getCollection } from "astro:content";
+const allKoeretoejer = await getCollection("koeretoejer");
+---
+
+<Layout title="Køretøjer">
+  <section class="flex gap-4 p-4 flex-wrap w-full justify-center">
+    {
+      allKoeretoejer.map((koeretoej) => (
+        <KoeretoejsCard
+          title={koeretoej.data.title}
+          image={koeretoej.data.image}
+          link={koeretoej.slug}
+        />
+      ))
+    }
+  </section>
+</Layout>

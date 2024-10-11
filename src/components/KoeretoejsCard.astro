@@ -1,0 +1,15 @@
+---
+interface Props {
+  title: string;
+  image?: string;
+  link: string;
+}
+const { title, image, link } = Astro.props;
+---
+
+<article class="max-w-64 w-full grid p-1 ">
+  <a href={"/koeretoejer/" + link} title={title} class="w-full">
+    {image?<img src={image} alt={title} class="object-cover rounded max-w-60" />:<div class=" rounded max-w-60 w-full bg-gray-500 aspect-video " />}
+    <h3 class="">{title}</h3>
+  </a>
+</article>

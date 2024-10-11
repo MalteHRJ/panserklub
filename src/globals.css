@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'bahnschrift';
+    src: url('/fonts/bahnschrift.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @tailwind base;
+
+@layer base {
+  h1 {
+    @apply font-bahnschrift text-4xl font-bold;
+  }
+  h2 {
+    @apply font-bahnschrift text-2xl font-semibold;
+  }
+  h3 {
+    @apply font-bahnschrift text-xl font-semibold;
+  }
+  p,li,span,a,ul {
+    @apply font-bahnschrift text-lg font-normal max-w-[65ch];
+  }
+ul{
+  @apply list-disc list-inside
+}
+ol{
+  @apply list-decimal list-inside
+}
+nav>ul{
+  @apply list-none
+}
+}
+
+@tailwind components;
+
+@tailwind utilities;
+ 

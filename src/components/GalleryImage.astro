@@ -1,0 +1,14 @@
+---
+    interface props {
+        src: string;
+        alt?: string;
+        title?: string
+    }
+
+    const { src, alt, title } = Astro.props
+---
+
+<article class=" max-w-sm grid">
+    <img src={src} alt={alt} title={title} class="object-contain" />
+    <span class=" bg-secondary text-primary p-1 text-sm">{title}</span>
+</article>

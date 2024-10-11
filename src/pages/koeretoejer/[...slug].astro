@@ -1,0 +1,40 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+export async function getStaticPaths() {
+  const allKoeretoejer = await getCollection("koeretoejer");
+  return allKoeretoejer.map((koeretoej) => ({
+    params: { slug: koeretoej.slug },
+    props: { koeretoej },
+  }));
+}
+
+const { koeretoej } = Astro.props;
+const { Content } = await koeretoej.render();
+---
+
+<Layout title="Panserklub Danmark">
+  <a href="/koeretoejer" title="tilbage" class="fixed top-24 left-0 p-2 text-secondary bg-accent">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="stroke-secondary"
+      ><path d="m15 18-6-6 6-6"></path></svg
+    ></a
+  >
+  <section class="grid gap-4 p-4 pt-12 justify-center">
+    <Content />
+  </section>
+</Layout>
+
+<style>
+  img {
+    max-width: 450px;
+  }
+</style>
